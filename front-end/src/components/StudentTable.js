@@ -19,10 +19,9 @@ const columns = [
   { id: 'english', label: 'English', minWidth: 100, align: 'right' },
   { id: 'hindi', label: 'Hindi', minWidth: 100, align: 'right' },
   { id: 'total', label: 'Total', minWidth: 100, align: 'right' },
-  { id: 'action', label: 'Action', minWidth: 170, align: "center" }
+  { id: 'action', label: 'Action', minWidth: 250, align: "center" }
 ];
 
-// const rows = [];
 
 export default function StudentTable({ students }) {
   const [page, setPage] = React.useState(0);
